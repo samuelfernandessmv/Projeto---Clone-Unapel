@@ -2,10 +2,44 @@ html {
     font-family: sans-serif;
 }
 
-/*:root {
+:root {
     --e-global-color: #1b408b;
-}*/
+    --e-button-color: #F7D117;
+}
 
-h1 {
-    color: #1b408b;
+.logo {
+    padding-left: 5rem;
+}
+
+#inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    gap: 4rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+#navbar a {
+    color: var(--e-global-color);
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    font-size: 14px;
+}
+
+#inner-header {
+    padding: 1rem;
+    align-items: center;    
+}
+
+a:hover {
+    transition: 0.7s;
+    opacity: 0.60;
+    padding-bottom: 5px;
+    border-bottom: 5px solid var(--e-button-color);
 }
