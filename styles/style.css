@@ -7,6 +7,16 @@ html {
     --e-button-color: #F7D117;
 }
 
+li {
+    list-style: none;
+}
+
+
+
+a {
+    position: relative;
+}
+
 .logo {
     padding-left: 5rem;
 }
@@ -30,16 +40,32 @@ html {
     text-decoration: none;
     align-items: center;
     font-size: 14px;
+    padding: 1rem;
 }
 
 #inner-header {
     padding: 1rem;
-    align-items: center;    
+    align-items: center;   
 }
 
 a:hover {
-    transition: 0.7s;
     opacity: 0.60;
-    padding-bottom: 5px;
-    border-bottom: 5px solid var(--e-button-color);
+    border-bottom: 3px solid var(--e-button-color);
+}
+
+.veio {
+    position: absolute;
+    bottom: 6.2rem;
+    z-index: 1;
+}
+
+.sombra {
+    position: relative;
+    top: 28.1rem;
+    right: -70px;
+}
+
+.pulverizador {
+    position: 4rem;
+    z-index: 2;
 }
