@@ -109,7 +109,7 @@ hr {
 }
 
 .cne {
-    margin-left: 400px;
+    margin-left: 470px;
     text-transform: uppercase;
     color: rgb(84, 84, 84);
     font-weight: bold;
@@ -203,7 +203,7 @@ hr {
     border-radius: 30px;
     font-size: 0.7rem;
     border: 0px;
-    margin-left: 530px;
+    margin-left: 590px;
     margin-top: 60px;
   }
 
@@ -233,4 +233,61 @@ hr {
 .tdra {
     margin-left: 535px;
     color: #FFF;
+}
+
+.peau {
+  padding-left: 6rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #606060;
+  padding-left: 21rem;
+}
+
+.peup {
+  color: #313131;
+}
+
+.img-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.ipi {
+  font-size: 12px;
+  color: #606060;
+  text-align: center;
+}
+
+.img-ctn {
+  max-width: 360px;
+}
+
+.ipis {
+  display: flex;
+}
+
+h3 {
+  color: #606060;
+  text-align: center;
+}
+
+.btn-sb {
+  padding: 0.8rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #1b408b;
+  color: #FFF;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.btn-sb:hover {
+  opacity: 0.60;
+  transition: 0.4s;
+}
+
+.swiper-slide {
+  text-align: center;
 }
