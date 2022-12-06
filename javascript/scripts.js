@@ -60,3 +60,7 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
   },
 });
+
+//@media screen and (max-width: 768px) {
+//
+//};

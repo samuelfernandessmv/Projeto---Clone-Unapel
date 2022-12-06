@@ -109,10 +109,10 @@ hr {
 }
 
 .cne {
-    margin-left: 470px;
     text-transform: uppercase;
     color: rgb(84, 84, 84);
     font-weight: bold;
+    text-align: center;
 }
 
 .slide-container{
@@ -172,12 +172,14 @@ hr {
   .swiper-navBtn::after{
     font-size: 35px;
   }
-  .swiper-button-next{
-    right: 0;
-  }
-  .swiper-button-prev{
+  
+ /* .swiper-button-next{
     left: 0;
   }
+
+  .swiper-button-prev{
+    left: 0;
+  }*/
   .swiper-pagination-bullet{
     background-color: #6E93f7;
     opacity: 1;
@@ -242,7 +244,11 @@ hr {
 h1 {
   text-transform: uppercase;
   color: #606060;
-  padding-left: 21rem;
+  text-align: center;
+}
+
+.tcp {
+  text-align: center;
 }
 
 .peup {
@@ -288,6 +294,35 @@ h3 {
   transition: 0.4s;
 }
 
-.swiper-slide {
+.cqcu {
   text-align: center;
+  padding: 10rem;
+}
+
+.jcu {
+  color: #313131;
+}
+
+.swiper-slide {
+  font-size: 13px;
+  color: #606060;
+  padding-top: 4rem;
+}
+
+.cupee {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.aaqs {
+  text-align: center;
+  font-size: 12px;
+  color: #606060;
+}
+
+.icons-isso {
+  display: flex;
+  background-color: var(--e-global-color);
+  color: #FFF;
+  font-size: 48px;
 }
