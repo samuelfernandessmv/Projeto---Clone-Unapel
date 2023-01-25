@@ -62,5 +62,5 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 //@media screen and (max-width: 768px) {
-//
+
 //};
