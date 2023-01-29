@@ -53,10 +53,6 @@ a:hover {
   border-bottom: 3px solid var(--e-button-color);
 }
 
-.dark {
-  padding-top: 70rem;
-}
-
 .banner {
   opacity: 0;
 
@@ -73,17 +69,16 @@ a:hover {
   flex: 0 0 auto;
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
-  min-height: 100%;
+  min-width: 100%;
   display: flex;
   justify-content: center;
   flex-flow: column;
-  padding-bottom: 48rem;
   transition: 0.8s;
+  border: 1px solid red;
 }
 
-.ptg {
-  padding-top: 100rem;
+.dark {
+  width: 100vw;
 }
 
 .dots {
