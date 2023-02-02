@@ -55,7 +55,6 @@ a:hover {
 
 .banner {
   opacity: 0;
-
 }
 
 .banners {
@@ -74,6 +73,7 @@ a:hover {
   justify-content: center;
   flex-flow: column;
   transition: 0.8s;
+  background-size: cover, cover;
   border: 1px solid red;
 }
 
@@ -83,13 +83,10 @@ a:hover {
 
 .dots {
   display: inline-flex;
-  position: absolute;
   gap: 1rem;
-  margin-top: -40px;
   align-items: center;
   justify-content: center;
   left: 50%;
-  z-index: 3;
   transform: translateX(-50%);
 }
 
@@ -103,11 +100,7 @@ a:hover {
   background-color: transparent;
   border-radius: 6px;
   border: 0.2px solid var(--e-button-color);
-}
-
-.new-holland-e-polaris {
-  padding-left: 20rem;
-}
+} 
 
 hr {
   background-color: var(--e-global-color);

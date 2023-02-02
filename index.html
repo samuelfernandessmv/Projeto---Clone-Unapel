@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto - Clone Unapel</title>
-  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/style.css">
   <script src="./javascript/scripts.js" defer></script>
   <script src="https://kit.fontawesome.com/5f3ec94b60.js" crossorigin="anonymous"></script>
   <!-- Swiper CSS -->
@@ -20,6 +20,7 @@
 </head>
 
 <body>
+  
   <!-- Cabeçalho / Header -->
   <header id="header">
     <div id="inner-header">
@@ -39,7 +40,8 @@
     </div>
   </header>
   <!-- Corpo / Main -->
-  <main>
+
+  <div class="sla">
     <div class="banners">
       <div class="banner active">
         <img src="./img/NDS-Banner.svg" alt="Veio da colheitadeira" class="veio">
@@ -63,7 +65,7 @@
         <img src="./img/Banner-1200x400-1.svg" alt="Celular" class="Celular">
       </div>
     </div>
-    <div class="dots" >
+    <div class="dots">
       <div class="dot active"></div>
       <div class="dot"></div>
       <div class="dot"></div>
@@ -72,6 +74,7 @@
       <div class="dot"></div>
       <div class="dot"></div>
     </div>
+  </div> 
     <div class="dark">
       <img src="./img/dark.png" alt="sombreado" class="sombra">
     </div>
@@ -80,342 +83,345 @@
       <img src="./img/2019_Polaris_Industries_new_logo_design-e1599101723576.svg" alt="Polaris Logo"
         class="new-holland-e-polaris">
     </div>
-    
-    <div class="ptg">
-    <hr>
 
-    <div class="conheca-nossos-equipamentos">
-      <div class="cne">
-        <h1 class="tcp">Conheça <span class="ne">Nossos Equipamentos</span></h1>
+     <hr>
+
+      <main>
+
+      <div class="conheca-nossos-equipamentos">
+        <div class="cne">
+          <h1 class="tcp">Conheça <span class="ne">Nossos Equipamentos</span></h1>
+        </div>
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="img/T4-principal_prod-e1603968755700.png" alt="" class="card-img">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Tratores</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="img/TC-principal_prod_02.png" alt="" class="card-img">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Colheitadeiras</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="img/DRAPER.jpg" alt="" class="card-img">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Plataformas</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="img/SP_2500-principal_prod.png" alt="" class="card-img">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Pulverizadores</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="img/sem_PL6000Gallery30.jpg" alt="" class="card-img">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Semeadoras</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="img/Forrageira-FR.jpg" alt="" class="card-img">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Feno e Forragem</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="img/PA-CARREGADEIRA.jpg" alt="" class="card-img">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Implementos</h2>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="img/colhedora.jpg" alt="" class="card-img">
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Colhedoras</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <button class="fcc">Falar com Consultor</button>
       </div>
-      <div class="slide-container swiper">
-        <div class="slide-content">
-          <div class="card-wrapper swiper-wrapper">
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay"></span>
 
-                <div class="card-image">
-                  <img src="img/T4-principal_prod-e1603968755700.png" alt="" class="card-img">
-                </div>
-              </div>
+      <div class="peau">
+        <h1><span class="peup">Porquê</span> escolher a unapel</h1>
+        <div class="img-container">
+          <div class="img-ctn">
+            <img src="img/CR.15.svg" alt="Treinamento">
+            <h3>Treinamentos</h3>
+            <p class="ipi">
+              No dia a dia, o produtor rural não pode se esquecer
+              da importância da capacitação dos operadores de máquinas
+              agrícolas assegurando maior produtividade e melhor desempenho
+              no equipamento.</p>
+            <button class="btn-sb">Saiba Mais</button>
+          </div>
+          <div class="img-ctn">
+            <img src="img/fsafdsa-copy.svg" alt="Portal do Cliente">
+            <h3>Portal do Cliente</h3>
+            <p class="ipi">
+              Um portal exclusivo para clientes, para sua produtividade ser
+              ainda mais tranquila. Nesta área você poderá ter acesso a emissão
+              de boletos, históricos de pagamentos, ordens de serviço,
+              quanto você gastou por equipamento e todas as informações
+              da sua rotina com junto à Cerrado. Vamos lá!</p>
+            <button class="btn-sb">Saiba Mais</button>
+          </div>
+          <div class="img-ctn">
+            <img src="img/jlk-scaled.svg" alt="Catálogo de peças online">
+            <h3>Catálogo de peças online</h3>
+            <p class="ipi">
+              Sabemos da importância de se ter um equipamento agrícola 100%
+              disponível desde o plantio até a colheita. Por isso,
+              disponibilizamos um catálogo online para que você possa
+              consultar suas peças, de maneira simples e rápida.</p>
+            <button class="btn-sb">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="ipis">
+        </div>
+      </div>
 
-              <div class="card-content">
-                <h2 class="name">Tratores</h2>
-              </div>
-            </div>
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay"></span>
-
-                <div class="card-image">
-                  <img src="img/TC-principal_prod_02.png" alt="" class="card-img">
-                </div>
-              </div>
-
-              <div class="card-content">
-                <h2 class="name">Colheitadeiras</h2>
-              </div>
-            </div>
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay"></span>
-
-                <div class="card-image">
-                  <img src="img/DRAPER.jpg" alt="" class="card-img">
-                </div>
-              </div>
-
-              <div class="card-content">
-                <h2 class="name">Plataformas</h2>
-              </div>
-            </div>
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay"></span>
-
-                <div class="card-image">
-                  <img src="img/SP_2500-principal_prod.png" alt="" class="card-img">
-                </div>
-              </div>
-
-              <div class="card-content">
-                <h2 class="name">Pulverizadores</h2>
+      <div class="cqcu">
+        <h1>Conheça quem <span class="jcu">Já confiou na Unapel</span></h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              “Quando a Unapel chegou em Cristalina, trouxe várias utilidades com uma frota de maquinários, além de seus
+              serviços de vendas <br> e mecânica de qualidade. Só tenho a agradecer pelo serviço prestado”.
+              <div class="cupee">
+                <span class="cupe"> Hamilton Peixoto <br> Cliente Unapel</span>
               </div>
             </div>
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay"></span>
-
-                <div class="card-image">
-                  <img src="img/sem_PL6000Gallery30.jpg" alt="" class="card-img">
-                </div>
-              </div>
-
-              <div class="card-content">
-                <h2 class="name">Semeadoras</h2>
+            <div class="swiper-slide">“Nesses 10, 12 anos que trabalhamos com a Unapel, não tenho do que reclamar.
+              Sempre
+              que precisei fui atendido na hora certa <br> e o pessoal da oficina é muito bom, são ótimos. Em minha
+              opinião, estão em primeiro lugar em atendimento e assistência”.
+              <div class="cupee">
+                <span class="cupe">Marcos <br> Gerente de Fazenda</span>
               </div>
             </div>
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay"></span>
+          </div>
+          <div class="sbtns">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
 
-                <div class="card-image">
-                  <img src="img/Forrageira-FR.jpg" alt="" class="card-img">
-                </div>
+      <div class="cctaam">
+        <div class="tudo">
+          <h1>CONTE COM <span class="jcu"> TODA A ASSISTÊNCIA E AMPARO </span><br>
+            QUE SUA PRODUÇÃO MERECE</h1>
+          <p class="aaqs">Ao adquirir qualquel solução da Unapel você poderá contar conosco para:</p>
+          <div class="icons-isso">
+            <div class="gears1">
+              <i class="fa-solid fa-gears"></i>
+              <h3 class="ics">Estoque de Peças</h3>
+              <div class="shields">
+                <i class="fa-solid fa-shield-halved"></i>
+                <p class="shield1">Atendimento para mais de 152 municípios no estado de Minas Gerais.</p>
               </div>
-
-              <div class="card-content">
-                <h2 class="name">Feno e Forragem</h2>
+              <div class="shields">
+                <i class="fa-solid fa-shield-halved"></i>
+                <p class="shield1">Mais de 4 milhões em estoque de peças.</p>
+              </div>
+              <div class="shields">
+                <i class="fa-solid fa-shield-halved"></i>
+                <p class="shield1">Acervo de mais de 6 mil itens.</p>
+              </div>
+              <div class="shields">
+                <i class="fa-solid fa-shield-halved"></i>
+                <p class="shield1">
+                  Capacidade de atender a diferentes demandas de forma eficaz e em <br> curto espaço de tempo.</p>
+              </div>
+              <div class="shields">
+                <p class="shield2">Nossos esforços estão direcionados no sentido de garantir a satisfação do <br>
+                  cliente
+                  no pós-venda assegurando a performance de indicadores de <br> disponibilidade e assertividade do
+                  estoque. Isso significa, ter a peça certa no <br> momento certo.</p>
+              </div>
+              <div class="opps">
+                <button class="opp">onde encontro o plantão de peças?</button>
               </div>
             </div>
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay"></span>
-
-                <div class="card-image">
-                  <img src="img/PA-CARREGADEIRA.jpg" alt="" class="card-img">
-                </div>
+            <div class="screwdriver">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h3 class="ics">Serviços</h3>
+              <div class="shields">
+                <i class="fa-solid fa-shield-halved"></i>
+                <p class="shield1">Entregar qualidade nos serviços prestados aos nossos clientes é a prioridade da
+                  Cerrado.</p>
               </div>
-
-              <div class="card-content">
-                <h2 class="name">Implementos</h2>
+              <div class="shields">
+                <i class="fa-solid fa-shield-halved"></i>
+                <p class="shield1">Investimos fortemente na capacitação dos nossos mecânicos</p>
               </div>
-            </div>
-            <div class="card swiper-slide">
-              <div class="image-content">
-                <span class="overlay"></span>
-
-                <div class="card-image">
-                  <img src="img/colhedora.jpg" alt="" class="card-img">
-                </div>
+              <div class="shields">
+                <i class="fa-solid fa-shield-halved"></i>
+                <p class="shield1">Desde o diagnóstico até o ajuste final cada equipamento é tratado com prioridade.</p>
               </div>
-
-              <div class="card-content">
-                <h2 class="name">Colhedoras</h2>
+              <div class="shields">
+                <p class="shield3">Atualmente são, em média, 900 operações mensais, um marco que conseguimos atingir com
+                  muita dedicação do nosso time. Nos orgulhamos pelo reconhecimento como uma das melhores áreas técnicas
+                  do Brasil.</p>
+              </div>
+              <div class="opps">
+                <button class="ops">ONDE ENCONTRO O PLANTÃO DE SERVIÇOS?</button>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="swiper-button-next swiper-navBtn"></div>
-        <div class="swiper-button-prev swiper-navBtn"></div>
-        <div class="swiper-pagination"></div>
       </div>
-      <button class="fcc">Falar com Consultor</button>
-    </div>
+      <div class="cpr">
+        <div class="rectangle">
 
-    <div class="peau">
-      <h1><span class="peup">Porquê</span> escolher a unapel</h1>
-      <div class="img-container">
-        <div class="img-ctn">
-          <img src="img/CR.15.svg" alt="Treinamento">
-          <h3>Treinamentos</h3>
-          <p class="ipi">
-            No dia a dia, o produtor rural não pode se esquecer
-            da importância da capacitação dos operadores de máquinas
-            agrícolas assegurando maior produtividade e melhor desempenho
-            no equipamento.</p>
-          <button class="btn-sb">Saiba Mais</button>
-        </div>
-        <div class="img-ctn">
-          <img src="img/fsafdsa-copy.svg" alt="Portal do Cliente">
-          <h3>Portal do Cliente</h3>
-          <p class="ipi">
-            Um portal exclusivo para clientes, para sua produtividade ser
-            ainda mais tranquila. Nesta área você poderá ter acesso a emissão
-            de boletos, históricos de pagamentos, ordens de serviço,
-            quanto você gastou por equipamento e todas as informações
-            da sua rotina com junto à Cerrado. Vamos lá!</p>
-          <button class="btn-sb">Saiba Mais</button>
-        </div>
-        <div class="img-ctn">
-          <img src="img/jlk-scaled.svg" alt="Catálogo de peças online">
-          <h3>Catálogo de peças online</h3>
-          <p class="ipi">
-            Sabemos da importância de se ter um equipamento agrícola 100%
-            disponível desde o plantio até a colheita. Por isso,
-            disponibilizamos um catálogo online para que você possa
-            consultar suas peças, de maneira simples e rápida.</p>
-          <button class="btn-sb">Saiba Mais</button>
-        </div>
-      </div>
-      <div class="ipis">
-      </div>
-    </div>
-
-    <div class="cqcu">
-      <h1>Conheça quem <span class="jcu">Já confiou na Unapel</span></h1>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            “Quando a Unapel chegou em Cristalina, trouxe várias utilidades com uma frota de maquinários, além de seus
-            serviços de vendas <br> e mecânica de qualidade. Só tenho a agradecer pelo serviço prestado”.
-            <div class="cupee">
-              <span class="cupe"> Hamilton Peixoto <br> Cliente Unapel</span>
-            </div>
+          <div class="cprc">
+            Cadastre para receber <br> nossos conteúdos
           </div>
-          <div class="swiper-slide">“Nesses 10, 12 anos que trabalhamos com a Unapel, não tenho do que reclamar. Sempre
-            que precisei fui atendido na hora certa <br> e o pessoal da oficina é muito bom, são ótimos. Em minha
-            opinião, estão em primeiro lugar em atendimento e assistência”.
-            <div class="cupee">
-              <span class="cupe">Marcos <br> Gerente de Fazenda</span>
-            </div>
+          <div class="input">
+            <input type="text" placeholder="Seu Email">
+          </div>
+          <div class="ca">
+            <button class="cab">cadastrar agora</button>
           </div>
         </div>
-        <div class="sbtns">
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-      </div>
-    </div>
 
-    <div class="cctaam">
-      <div class="tudo">
-        <h1>CONTE COM <span class="jcu"> TODA A ASSISTÊNCIA E AMPARO </span><br>
-          QUE SUA PRODUÇÃO MERECE</h1>
-        <p class="aaqs">Ao adquirir qualquel solução da Unapel você poderá contar conosco para:</p>
-        <div class="icons-isso">
-          <div class="gears1">
-            <i class="fa-solid fa-gears"></i>
-            <h3 class="ics">Estoque de Peças</h3>
-            <div class="shields">
-              <i class="fa-solid fa-shield-halved"></i>
-              <p class="shield1">Atendimento para mais de 152 municípios no estado de Minas Gerais.</p>
-            </div>
-            <div class="shields">
-              <i class="fa-solid fa-shield-halved"></i>
-              <p class="shield1">Mais de 4 milhões em estoque de peças.</p>
-            </div>
-            <div class="shields">
-              <i class="fa-solid fa-shield-halved"></i>
-              <p class="shield1">Acervo de mais de 6 mil itens.</p>
-            </div>
-            <div class="shields">
-              <i class="fa-solid fa-shield-halved"></i>
-              <p class="shield1">
-                Capacidade de atender a diferentes demandas de forma eficaz e em <br> curto espaço de tempo.</p>
-            </div>
-            <div class="shields">
-              <p class="shield2">Nossos esforços estão direcionados no sentido de garantir a satisfação do <br> cliente
-                no pós-venda assegurando a performance de indicadores de <br> disponibilidade e assertividade do
-                estoque. Isso significa, ter a peça certa no <br> momento certo.</p>
-            </div>
-            <div class="opps">
-              <button class="opp">onde encontro o plantão de peças?</button>
-            </div>
+      </div>
+      <div class="line"></div>
+
+      <!-- Penúltima parte -->
+
+      <div class="pp">
+        <div class="tpp">
+          <div class="pv">
+            <h4>Pós Venda
+              <p class="tc">Peças</p>
+              <p class="tc">Serviços</p>
+            </h4>
           </div>
-          <div class="screwdriver">
-            <i class="fa-solid fa-screwdriver-wrench"></i>
-            <h3 class="ics">Serviços</h3>
-            <div class="shields">
-              <i class="fa-solid fa-shield-halved"></i>
-              <p class="shield1">Entregar qualidade nos serviços prestados aos nossos clientes é a prioridade da
-                Cerrado.</p>
-            </div>
-            <div class="shields">
-              <i class="fa-solid fa-shield-halved"></i>
-              <p class="shield1">Investimos fortemente na capacitação dos nossos mecânicos</p>
-            </div>
-            <div class="shields">
-              <i class="fa-solid fa-shield-halved"></i>
-              <p class="shield1">Desde o diagnóstico até o ajuste final cada equipamento é tratado com prioridade.</p>
-            </div>
-            <div class="shields">
-              <p class="shield3">Atualmente são, em média, 900 operações mensais, um marco que conseguimos atingir com
-                muita dedicação do nosso time. Nos orgulhamos pelo reconhecimento como uma das melhores áreas técnicas
-                do Brasil.</p>
-            </div>
-            <div class="opps">
-              <button class="ops">ONDE ENCONTRO O PLANTÃO DE SERVIÇOS?</button>
-            </div>
+          <div class="cnsrc">
+            <h4>Consórcio
+              <p class="tc">Atendimento</p>
+              <p class="tc ">Como Funciona</p>
+            </h4>
+          </div>
+          <div class="eps">
+            <h4>Empresa
+              <p class="tc">Canal de denúncias</p>
+              <p class="tc">Fale Conosco</p>
+              <p class="tc">Intranet</p>
+              <p class="tc">LGPD</p>
+              <p class="tc">Responsabilidade Social</p>
+              <p class="tc">Sobre Nós</p>
+              <p class="tc">Trabalhe conosco</p>
+            </h4>
+          </div>
+          <div class="ctt">
+            <h4>Contato
+              <div class="tmsc">
+                <p class="tsc">>
+                <p class="tc">Catalão-GO</p>
+                </p>
+              </div>
+              <hr class="linhazinha">
+              <div class="tmsc">
+                <p class="tsc">>
+                <p class="tc">Catalão-GO</p>
+                </p>
+              </div>
+              <hr class="linhazinha">
+              <div class="tmsc">
+                <p class="tsc">>
+                <p class="tc">Catalão-GO</p>
+                </p>
+              </div>
+              <hr class="linhazinha">
+              <div class="tmsc">
+                <p class="tsc">>
+                <p class="tc">Catalão-GO</p>
+                </p>
+              </div>
+              <hr class="linhazinha">
+              <div class="tmsc">
+                <p class="tsc">>
+                <p class="tc">Catalão-GO</p>
+                </p>
+              </div>
+              <hr class="linhazinha">
+            </h4>
           </div>
         </div>
       </div>
-    </div>
-    <div class="cpr">
-      <div class="rectangle">
-
-        <div class="cprc">
-          Cadastre para receber <br> nossos conteúdos
-        </div>
-        <div class="input">
-          <input type="text" placeholder="Seu Email">
-        </div>
-        <div class="ca">
-          <button class="cab">cadastrar agora</button>
-        </div>
-      </div>
-
-    </div>
-    <div class="line"></div>
-
-    <!-- Penúltima parte -->
-
-    <div class="pp">
-      <div class="tpp">
-        <div class="pv">
-          <h4>Pós Venda
-            <p class="tc">Peças</p>
-            <p class="tc">Serviços</p>
-          </h4>
-        </div>
-        <div class="cnsrc">
-          <h4>Consórcio
-            <p class="tc">Atendimento</p>
-            <p class="tc ">Como Funciona</p>
-          </h4>
-        </div>
-        <div class="eps">
-          <h4>Empresa
-            <p class="tc">Canal de denúncias</p>
-            <p class="tc">Fale Conosco</p>
-            <p class="tc">Intranet</p>
-            <p class="tc">LGPD</p>
-            <p class="tc">Responsabilidade Social</p>
-            <p class="tc">Sobre Nós</p>
-            <p class="tc">Trabalhe conosco</p>
-          </h4>
-        </div>
-        <div class="ctt">
-          <h4>Contato
-            <div class="tmsc">
-              <p class="tsc">>
-              <p class="tc">Catalão-GO</p>
-              </p>
-            </div>
-            <hr class="linhazinha">
-            <div class="tmsc">
-              <p class="tsc">>
-              <p class="tc">Catalão-GO</p>
-              </p>
-            </div>
-            <hr class="linhazinha">
-            <div class="tmsc">
-              <p class="tsc">>
-              <p class="tc">Catalão-GO</p>
-              </p>
-            </div>
-            <hr class="linhazinha">
-            <div class="tmsc">
-              <p class="tsc">>
-              <p class="tc">Catalão-GO</p>
-              </p>
-            </div>
-            <hr class="linhazinha">
-            <div class="tmsc">
-              <p class="tsc">>
-              <p class="tc">Catalão-GO</p>
-              </p>
-            </div>
-            <hr class="linhazinha">  
-          </h4>
-        </div>
-      </div>
-    </div>
 
   </main>
-</div>
+  </div>
 
 
   <footer>
